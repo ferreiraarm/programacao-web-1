@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang = "pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário</title>
+	<link rel="shortcut icon" href="..\imagens\icone.jpg">
+
+</head>
+<body bgcolor="#E8D581">
+
+	<fielset>
+		<legend> Fale conosco</lengend>
+		<form action="#" method="post">
+	
+		<fieldset>
+			<legend>Dados</legend>
+		
+		<p>
+
+		<label for ="nome">Nome</label>
+			<input type="text" id="nome" name="nome" placeholder="Digite seu nome" autocomplete = "off" maxlength="4" size = "40" required=""/>
+		</p>
+		<p>
+		
+		<label for="email"> Email</label>
+		
+		<input type="email" id="email" name = "email" placeholder="E-mail" aucomplete="off" required = ""/>
+		</p>
+
+	</fieldset>
+
+	<br>
+
+	<fieldset>
+		<legend> Mensagem</legend>
+		
+		<p>
+			Assunto:<br>
+			
+			<input type="radio" name = "assunto" value="0" checked>Pessoal
+			<input type="radio" name = "assunto" value="1">Público
+		</p>
+
+
+	<p> 
+		Enviar para :<br>
+		
+		<input type = "checkbox" name="presidente" id = "presidente" checked>
+		<label for="copia"> Presidente</label><br>
+		
+		<input type="ckeckbox" name="diretor" id="diretor" value=" diretor">
+		<label for="diretor">Diretor</label>
+	</p>
+
+	<p>
+		<label for="tempo"> Quantos meses trabalhando na empresa?</label><br>
+		<input type="number" id="tempo" name="tempo" required=""/>
+	</p>
+
+	<p>
+		<label for="nome"> Dara do ocorrido? </label>
+		<input type="date" id="data" name="data" required=""/>
+	</p>
+	
+	<p>
+		<label for="nome"> Qual setor?</label>
+
+		<select id = "UF" name ="setor">
+			<option value ="">Selecione</option>
+			<option value ="AC">Compras</option>
+			<option value ="AL">Vendas</option>
+			<option value ="AP">Produção</option>
+
+		</select>
+	</p>
+		<p>
+			<label for="mensagem">Escreva a mensagem</label><br>
+			<textarea type="text" id="mensagem" name="mensagem" rows="3" placeholder="Mensagem" autocomplete="off" required=""></textarea>
+		</p>
+
+	</fieldset>
+		<p align="center">
+			<input type = "submit" name ="Enviar" value="Enviar">
+			<input type = "reset" name ="Limpar" value="Limpar">
+		</p>
+
+	</fieldset>
+	</form>
+	
+<center><a href="../index.html">Página Home</a>	</center>	
+</body>
+</html>
