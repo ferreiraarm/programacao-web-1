@@ -1,0 +1,62 @@
+<doctype html>
+<hmtl lang="pt-br">
+
+<head>
+	<title>Atividade aula 05 - </title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="..\imagens\icone.jpg">
+
+</head>
+
+<body>
+     <center>
+
+<h2>Registro de Eventos</h2>
+    <form action="#" method="post">
+
+  
+        <fieldset>
+            <legend>Informações Básicas</legend>
+            <label for="nome">Nome do Evento:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="data">Data do Evento:</label><br>
+            <input type="date" id="data" name="data" required><br>
+
+            <label for="hora">Hora do Evento:</label><br>
+            <input type="time" id="hora" name="hora" required><br>
+
+            <label for="local">Local do Evento:</label><br>
+            <input type="text" id="local" name="local" required><br>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Descrição</legend>
+            <label for="descricao">Descrição do Evento:</label><br>
+            <textarea id="descricao" name="descricao" rows="4" cols="50"></textarea><br>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Imagem do Evento</legend><br>
+            <label for="imagem">Escolha uma imagem do Evento:</label><br>
+            <input type="file" id="imagem" name="imagem" accept="image/*"><br>
+        </fieldset>
+
+       
+        <fieldset>
+            <legend>Termos e Condições</legend><br>
+            <label for="termos">Aceito os Termos e Condições:</label><br>
+            <input type="checkbox" id="termos" name="termos" required><br>
+        </fieldset>
+
+        
+        <input type="submit" value="Registrar Evento"><br>
+    </form>
+  
+<br>
+<a href="../index.html">Página Home</a>
+</center>
+</body>
+</html>
