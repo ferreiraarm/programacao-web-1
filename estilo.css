@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    background: #cccccc;
+
+}
+
+h2{
+    text-align: center;
+    background: #cccccc;
+
+}
+
+h3{
+    text-align: center;
+    background: #cccccc;
+}
+.obs{
+    color: red;
+
+    
+}
+body{
+
+background-color: rgb(81, 78, 74);
+}
+
+#ptest1{
+    text-align: center;
+    color: rgb(77, 77, 13);
+    font-size: 20px;
+    background: #cccccc;
+
+}
+#ptest2{
+    text-align: center;
+    background: #cccccc;
+}
+
+p{
+    color: blue;
+    font-size: 20px;
+};
+
+
+
+
+h1{color:red;}
+
+ul{
+    list-style-position: inside;
+    list-style-type: circle;
+    background: #cccccc;
+    padding: 10px;
+
+}
+p.centro{
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    background: #cccccc;
+
+}
+
+#f1{
+    text-align: center;
+    }

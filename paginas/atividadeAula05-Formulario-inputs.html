@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang = "pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário teste de inputs</title>
+	<link rel="shortcut icon" href="..\imagens\icone.jpg">
+
+</head>
+<body bgcolor="#E8D581">
+<center>
+	<h2>Inputs</h2>
+
+<form action="#" method="post">
+
+<fieldset>
+	<legend>Dados Cadastrais </legend>
+
+	<label for="nome">Nome</label>
+	<input type = "text" id="nome" name="nome" placeholder="Digite seu nome" autocomplete = "off" requires=""/> <br>
+
+	<label for = "password">Password</label>
+	<input type="password" id="senha" name="senha" placeholder ="digite a senha" autocomplete = "off" requires=""/><br>
+
+	<label for="data">Data</label>
+	<input type="date" id="data" name="data" required=""/><br>
+
+	<label for="email">Email</label><br>
+	<input type="email" id="email" name="email" required=""/><br>
+	
+</fieldset>
+
+<fieldset>
+	<legend>Dados Opcionais</legend>
+	
+	<label for = "assunto">Assunto</label><br>
+	<input type="radio" name = "assunto" value="0" checked>Pessoal
+	<input type="radio" name = "assunto" value="1">Público<br>
+	<br>
+
+	<label for="remetente">Remetente</label><br>
+	<p><input type = "checkbox" name="presidente" id = "presidente">Presidente</p>
+	<p><input type = "checkbox" name="diretor" id = "diretor">Diretor</p>
+	<p><input type = "checkbox" name="TI" id = "TI">TI</p>
+<br>
+	
+	<label for="hora">HORA</label>
+	<input  type="time" id="hora" name="hora" required = ""/><br>
+
+	<label for="busca">Buscar</label>
+	<input type="search" id="busca" name="busca" required = "" /><br>
+	
+	<label for="arquivo">Arquivo Anexo</label>	
+	<input type="file" id="arq" name="arq"  required = ""/><br>
+
+	<label for=cor>Cor Preferida</label>
+	<input type="color" id="cor" name="cor" required = ""/><br>	
+
+	<label for="range">Range</label>
+	<input type="range" id="range" name="range" required = ""/><br>
+
+	<label for="numero">Número Preferido</label>
+	<input type="number" id="numero" name="numero" required = ""/><br>
+
+	<label for="nome"> Qual setor?</label>
+
+		<select id = "UF" name ="setor">
+			<option value ="">Selecione</option>
+			<option value ="AC">Compras</option>
+			<option value ="AL">Vendas</option>
+			<option value ="AP">Produção</option>
+
+		</select><br>
+	
+</fieldset>
+
+	<label for="mensagem">Escreva a mensagem</label><br>
+			<textarea type="text" id="mensagem" name="mensagem" rows="3" placeholder="Mensagem" autocomplete="off" required=""></textarea><br><br><br><br>
+
+	<input type = "submit" name ="Enviar" value="Enviar">
+	<input type = "reset" name ="Limpar" value="Limpar">
+	
+</form>
+</center>
+<br><br><br>
+<center><a href="../index.html">Página Home</a>	</center>	
+</body>
+</html>
