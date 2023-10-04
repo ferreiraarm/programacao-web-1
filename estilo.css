@@ -19,9 +19,18 @@ h3{
 
     
 }
+
+
+
+    
+
 body{
 
-background-color: rgb(81, 78, 74);
+    background-color: aquamarine;
+   /* background-size: 50%; aumenta e diminui a imagen de acordo com a porcentagem*/
+   /*background-size: cover;*/
+   background-size: contain;
+
 }
 
 #ptest1{
@@ -74,42 +83,7 @@ p.centro{
     align-items: center;
     padding: 10px 20px;
 }
-/*
-.menu-toggle {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}*/
 
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 3px 0;
-}
-/*
-.menu {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.menu li {
-    margin-right: 20px;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.menu a:hover {
-    color: #ff6600;
-}
-*/
 
 .content {
     padding: 20px;
@@ -126,3 +100,15 @@ p.centro{
     flex-grow: 0;
 }
 
+
+@media (max-width: 722px) {
+
+    body{
+      background-image: url("imagens/dg.jpg");
+     /* background-repeat: no-repeat; serve para não repetir as imagens colocadas*/
+    /* background-repeat: repeat-y;*/
+     /*background-repeat: repeat-x;*/
+     background-size: 50%;
+
+    }
+}

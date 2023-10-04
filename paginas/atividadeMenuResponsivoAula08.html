@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivo</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav>
+       <div class="logo">
+          <h1>Menu</h1>
+       </div>
+       <button>&#9776;</button>
+       <ul>
+         <li>
+            <p>Opção 1</p>
+         </li>
+         <li>
+            <p>Opção 2</p>
+         </li>
+         <li>
+            <p>Opção 3</p>
+         </li>
+         <li>
+            <p>Opção 4</p>
+         </li>
+         <li>
+            <p>Opção 5</p>
+         </li>
+
+       </ul>
+
+    </nav>
+<br>
+
+<H3>No html, são:</H3>
+    &ltnav&gt //representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, no caso o menu principal
+    <br><br>
+    &ltul&gt //Lista não ordenada
+    <br><br>
+    &ltli&gt // Item da lista, no caso do menu
+    <br><br>
+
+    <h3>No CSS, temos:</h3>
+<br><br>
+    Estrutura body{margin=0;} //atribui a margem para 0
+    <br><br>
+    Estrutura ul{ 
+        list-style: none;
+        padding: 0;
+        overflow: hidden;
+        transition: all .5s ;
+    } //atribui para todas as lista ul os valores passados
+    <br><br>
+    h1, p{
+        color: #fff;
+      } //Atribui aos titulos h1 e todos os parágrafos, a cor desejada
+    <br><br>
+    nav, ul {
+        display: flex;
+        flex-direction: row;
+      } //atribui ao nav e ul os atributos de alinhamento desejados
+      <br><br>
+      li{
+        padding: 0 20px;
+      } //Ajusta o padding
+      <br><br>
+      h1{
+        margin:0;
+        padding: 10px;
+      }//ajusta o padding e a margem
+      <br><br>
+      button{
+        background-color: transparent;
+        border: none;
+        color: #fff;
+        font-size: 36px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: none;
+      }// No botão é atribuido cor de fundo, borda,cor, tamanho da fonte, posição e alinhamentos.
+    <br>
+    <br>
+    li:hover, h1:hover,button:hover{
+  
+    cursor: pointer;
+     opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+    }//ajusta a animação hover para o botão do menu, a cor que fica quando animado e opaciadade
+    <br><br>
+    button:focus ~ul{
+        height: 260px;
+      }//Ajusta o height quando clicado
+      <br><br>
+
+      @media (max-width: 700px){ //nesta linha, de acordo com o tamanho em px, é aplicado as alterações as tags contidas dentro do mesmo
+        
+        nav, ul{
+        flex-direction: column;
+       }//muda a orientação do menu
+    <br><br>
+       ul{
+        text-align: center;
+        margin: 0;
+        height: 0;
+       }//alinha a lista do menu
+       <br><br>
+       nav{
+        padding-top: 0px;
+        align-items: flex-start;
+       }//alinha o menu 
+       <br><br>
+       h1{
+         margin: 10px;
+       }//ajusta a margem
+       <br><br>
+       button{
+        display: flex;
+       }//alinha o botão
+       <br><br>
+       li, ul{
+         width:100%;
+       }//ajusta a largura dos itens e da lista menu
+    
+    }<br><br>
+    <p class="centro"> <a href="../index.html">Página Home</a></p>
+</body>
+</html>
