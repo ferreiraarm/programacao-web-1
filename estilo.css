@@ -1,67 +1,75 @@
-h1{
+h1 {
     text-align: center;
     background: #cccccc;
 
 }
 
-h2{
+h2 {
     text-align: center;
     background: #cccccc;
 
 }
 
-h3{
+h3 {
     text-align: center;
     background: #cccccc;
 }
-.obs{
+
+.obs {
     color: red;
 
-    
-}
-
-
-
-    
-
-body{
-
-    background-color: aquamarine;
-   /* background-size: 50%; aumenta e diminui a imagen de acordo com a porcentagem*/
-   /*background-size: cover;*/
-   background-size: contain;
 
 }
 
-#ptest1{
+
+
+
+
+body {
+
+    /* background-color: aquamarine;
+    background-size: 50%; */
+    /*aumenta e diminui a imagen de acordo com a porcentagem*/
+    /* background-size: cover;
+    background-size: contain; */
+
+}
+
+#ptest1 {
     text-align: center;
     color: rgb(77, 77, 13);
     font-size: 20px;
     background: #cccccc;
 
 }
-#ptest2{
+
+#ptest2 {
     text-align: center;
     background: #cccccc;
 }
 
-p{
-    color: blue;
-    font-size: 20px;
-};
+p {
+    /* color: blue;
+    font-size: 20px; */
+}
+
+;
 
 
 
 
-h1{color:red;}
+h1 {
+    color: red;
+}
 
-ul{
+ul {
     list-style-position: inside;
     list-style-type: circle;
     padding: 10px;
 
 }
-p.centro{
+
+p.centro {
     text-align: center;
     color: green;
     font-size: 20px;
@@ -69,15 +77,16 @@ p.centro{
 
 }
 
-#f1{
+#f1 {
     text-align: center;
-    }
+}
+
 /*estilos do menu*/
 
 
 .navbar {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,13 +98,13 @@ p.centro{
     padding: 20px;
 }
 
-.nav-cont{
+.nav-cont {
     display: flex;
     justify-content: space-between;
     text-align: right;
 }
 
-.nav-links{
+.nav-links {
     width: fit-content;
     flex-grow: 0;
 }
@@ -103,12 +112,12 @@ p.centro{
 
 @media (max-width: 722px) {
 
-    body{
-      background-image: url("imagens/dg.jpg");
-     /* background-repeat: no-repeat; serve para não repetir as imagens colocadas*/
-    /* background-repeat: repeat-y;*/
-     /*background-repeat: repeat-x;*/
-     background-size: 50%;
+    body {
+        background-image: url("imagens/dg.jpg");
+        /* background-repeat: no-repeat; serve para não repetir as imagens colocadas*/
+        /* background-repeat: repeat-y;*/
+        /*background-repeat: repeat-x;*/
+        background-size: 50%;
 
     }
 }
