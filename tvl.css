@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #595656; /* Cor de fundo para toda a página */
+}
+.bb{
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    
+    align-items: center;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tv {
+    text-align: center;
+}
+
+video {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+.remote-control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 20px;
+}
+
+button {
+    margin: 5px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.numButton,
+.arrow01,
+.arrow02,
+.arrow03,
+.bt2 {
+    list-style: none;
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.numButton button,
+.arrow01 button,
+.arrow02 button,
+.arrow03 button,
+.bt2 button {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Adicione uma imagem de controle remoto como fundo para os botões */
+.numButton button {
+    background-image: url('/imagens/controleRemoto.jpg');
+    background-size: cover;
+}
+
+#chmais {
+    background-image: url('/imagens/keyboard_double_arrow_up_FILL0_wght400_GRAD0_opsz24.png');
+    background-size: cover;
+}
+#chmenos{
+    background-image: url('/imagens/keyboard_double_arrow_down_FILL0_wght400_GRAD0_opsz24.png');
+    background-size: cover;
+}
+
+
+#upvolume {
+    background-image: url('/imagens/keyboard_double_arrow_right_FILL0_wght400_GRAD0_opsz24.png');
+    background-size: cover;
+}
+
+#downvolume {
+    background-image: url('/imagens/keyboard_double_arrow_left_FILL0_wght400_GRAD0_opsz24.png');
+    background-size: cover;
+}
+
+#dn {
+    background-image: url('/imagens/skip_previous_FILL0_wght400_GRAD0_opsz24.png');
+    background-size: cover;
+}
+#rdd{
+    background-image: url('/imagens/skip_next_FILL0_wght400_GRAD0_opsz24.png');
+    background-size: cover;
+}
+
+
+#pandp{
+    background-image: url('/imagens/play_pause_FILL0_wght400_GRAD0_opsz24.png');
+    background-size: cover;
+}
+
+#remoteImage {
+    color: white;
+    background-color: white;
+    border-radius: 10px;
+}
+

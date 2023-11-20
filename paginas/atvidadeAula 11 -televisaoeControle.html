@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../tvl.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Televisão e Controle Remoto</title>
+</head>
+
+<body>
+    <!-- Contêiner principal para organizar a TV e o controle remoto lado a lado -->
+    <div class="container">
+        <!-- Contêiner da televisão -->
+        <div class="tv">
+            <!-- Tag de vídeo para exibir os vídeos -->
+            <video id="videoScreen" controls>
+                <source src="/videos/vd1.mp4" type="video/mp4" id="videoSource">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+        </div>
+
+        <!-- Contêiner do controle remoto -->
+        <div class="remote-control bb">
+            <!-- Controles de canal e volume como botões -->
+
+            <div class="controls">
+
+                <!-- Imagem do controle remoto para exemplo -->
+                <img src="/imagens/remote.svg" alt="Controle Remoto" id="remoteImage"
+                    onclick="handleRemoteClick(event)">
+
+                <br>
+                <li class="numBoutton">
+                    <button onclick="changeChannel(1)">1</button>
+                    <button onclick="changeChannel(2)">2</button>
+                    <button onclick="changeChannel(3)">3</button>
+                </li>
+                <br>
+                <br>
+                <li class="numBoutton">
+                    <button onclick="changeChannel(4)">4</button>
+                    <button onclick="changeChannel(5)">5</button>
+                    <button onclick="changeChannel(6)">6</button>
+                </li><br>
+
+                <br>
+                <li class="numBoutton">
+                    <button onclick="changeChannel(7)">7</button>
+                    <button onclick="changeChannel(8)">8</button>
+                    <button onclick="changeChannel(9)">9</button>
+                </li>
+                <br><br>
+                <li class="arrow01">
+                    <button id="chmais" onclick="UpChannel()"></button>
+
+                </li>
+                <li class="arrow02">
+                
+                    <button id="downvolume" onclick="toggleVolume('down')"></button>
+                        <button id="upvolume" onclick="toggleVolume('up')"></button>    
+                </li>
+                <li class="arrow03">
+
+                    <button id="chmenos" onclick="DownChannel()"></button>
+
+                </li>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Importação do script JavaScript -->
+    <script src="../televisao.js"></script>
+</body>
+
+</html>
