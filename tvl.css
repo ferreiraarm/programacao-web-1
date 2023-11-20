@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+   
+   
     height: 100vh;
     margin: 0;
     background-color: #595656; /* Cor de fundo para toda a página */
@@ -27,10 +27,11 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    background-color: #fff;
+    background-color: #302525;
     padding: 20px;
     border-radius: 10px;
     box-shadow:  0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .tv {
@@ -94,42 +95,42 @@ button {
 
 /* Adicione uma imagem de controle remoto como fundo para os botões */
 .numButton button {
-    background-image: url('/imagens/controleRemoto.jpg');
+    background-image: url('/programacao-web-1/imagens/controleRemoto.jpg');
     background-size: cover;
 }
 
 #chmais {
-    background-image: url('/imagens/keyboard_double_arrow_up_FILL0_wght400_GRAD0_opsz24.png');
+    background-image: url('/programacao-web-1/imagens/keyboard_double_arrow_up_FILL0_wght400_GRAD0_opsz24.png');
     background-size: cover;
 }
 #chmenos{
-    background-image: url('/imagens/keyboard_double_arrow_down_FILL0_wght400_GRAD0_opsz24.png');
+    background-image: url('/programacao-web-1/imagens/keyboard_double_arrow_down_FILL0_wght400_GRAD0_opsz24.png');
     background-size: cover;
 }
 
 
 #upvolume {
-    background-image: url('/imagens/keyboard_double_arrow_right_FILL0_wght400_GRAD0_opsz24.png');
+    background-image: url('/programacao-web-1/imagens/keyboard_double_arrow_right_FILL0_wght400_GRAD0_opsz24.png');
     background-size: cover;
 }
 
 #downvolume {
-    background-image: url('/imagens/keyboard_double_arrow_left_FILL0_wght400_GRAD0_opsz24.png');
+    background-image: url('/programacao-web-1/imagens/keyboard_double_arrow_left_FILL0_wght400_GRAD0_opsz24.png');
     background-size: cover;
 }
 
 #dn {
-    background-image: url('/imagens/skip_previous_FILL0_wght400_GRAD0_opsz24.png');
+    background-image: url('/programacao-web-1/imagens/skip_previous_FILL0_wght400_GRAD0_opsz24.png');
     background-size: cover;
 }
 #rdd{
-    background-image: url('/imagens/skip_next_FILL0_wght400_GRAD0_opsz24.png');
+    background-image: url('/programacao-web-1/imagens/skip_next_FILL0_wght400_GRAD0_opsz24.png');
     background-size: cover;
 }
 
 
 #pandp{
-    background-image: url('/imagens/play_pause_FILL0_wght400_GRAD0_opsz24.png');
+    background-image: url('/programacao-web-1/imagens/play_pause_FILL0_wght400_GRAD0_opsz24.png');
     background-size: cover;
 }
 

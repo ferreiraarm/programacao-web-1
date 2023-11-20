@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../tvl.css">
-    
-    
+
     <title>Televisão e Controle Remoto</title>
 </head>
 
 <body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
     <script src="/programacao-web-1/menu/menu.js"></script>
 
     <!-- Contêiner principal para organizar a TV e o controle remoto lado a lado -->
@@ -20,7 +24,7 @@
         <div class="tv">
             <!-- Tag de vídeo para exibir os vídeos -->
             <video id="videoScreen" controls>
-                <source src="programacao-web-1/videos/vd1.mp4" type="video/mp4" id="videoSource">
+                <source src="/programacao-web-1/videos/vd1.mp4" type="video/mp4" id="videoSource">
                 Seu navegador não suporta a tag de vídeo.
             </video>
         </div>
@@ -61,25 +65,25 @@
 
                 </li>
                 <li class="arrow02">
-                
+
                     <button id="downvolume" onclick="toggleVolume('down')"></button>
-                        <button id="upvolume" onclick="toggleVolume('up')"></button>    
+                    <button id="upvolume" onclick="toggleVolume('up')"></button>
                 </li>
                 <li class="arrow03">
 
                     <button id="chmenos" onclick="DownChannel()"></button>
 
                 </li>
-                
+
             </div>
 
         </div>
     </div>
 
-    
+
     <!-- Importação do script JavaScript -->
-   
-        <script src="../televisao.js"></script>
+
+    <script src="../televisao.js"></script>
 </body>
 
 </html>
