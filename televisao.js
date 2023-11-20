@@ -81,7 +81,7 @@ function updateScreen() {
     const videoScreen = document.getElementById('videoScreen');
 
     if (power) {
-        const videoUrl = `/videos/vd${channel}.mp4`;
+        const videoUrl = `/programacao-web-1/videos/vd${channel}.mp4`;
         videoSource.src = videoUrl;
         videoScreen.load();
         videoScreen.volume = volume / 100;
