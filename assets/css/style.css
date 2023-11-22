@@ -7,22 +7,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
-/*teste menu*/
 
-.nav-cont {
-  display: flex;
-  justify-content: space-between;
-  text-align: right;
-}
-
-.nav-links {
-  width: fit-content;
-  flex-grow: 0;
-}
-
-
-
-/*fim de teste*/
 
 a {
   color: #4cc344;
