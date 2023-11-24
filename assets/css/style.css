@@ -519,6 +519,16 @@ section {
 }
 
 
+.resume2{
+  
+  background-color: rgba(202, 207, 97, 0.443);
+
+}
+
+
+.dropdown-menu{
+  position: relative;
+}
 
 .resume .resume-title {
   font-size: 26px;
