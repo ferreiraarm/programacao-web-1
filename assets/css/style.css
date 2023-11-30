@@ -332,7 +332,19 @@ h6 {
 @media (max-width: 992px) {
   #hero {
     text-align: center;
+    background: url("../img/OlariaRotulo.jpg") center no-repeat;
+    background-size: 50%;
+    position: relative;
   }
+
+  @media (max-width: 360px) {
+    #hero {
+      text-align: center;
+      background: url("../img/OlariaRotulo.jpg") center no-repeat;
+      background-size: 80%;
+      position: relative;
+      
+    }
 
   #hero h1 {
     font-size: 32px;
